@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion — Izaka't</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="login-page">
+
+    <div class="login-blob"></div>
+    <div class="login-blob2"></div>
+
+    <div class="login-container">
+
+        <a href="index.html" class="back-home">
+            ← Retour à l'accueil
+        </a>
+
+        <h1 class="login-title">
+            Bon retour 👋
+        </h1>
+
+        <p class="login-subtitle">
+            Connecte-toi pour retrouver tes cours, ta communauté et tes professeurs.
+        </p>
+
+        <form id="loginForm" class="login-form">
+            <input type="email" id="email" placeholder="Adresse email" required>
+            <input type="password" id="password" placeholder="Mot de passe" required>
+
+            <button type="submit" class="btn-primary">
+                Se connecter
+            </button>
+        </form>
+
+        <p id="message"></p>
+
+        <div class="login-footer">
+            Pas encore de compte ?
+            <a href="register.html">
+                S'inscrire
+            </a>
+        </div>
+
+    </div>
+
+    <script src="/js/login.js"></script>
+
+</body>
+</html>
