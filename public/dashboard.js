@@ -4,7 +4,7 @@ if (!token) {
   window.location.href = "login.html";
 }
 
-fetch("http://localhost:3000/profile", {
+fetch("https://site-izaket.onrender.com", {
   method: "GET",
   headers: {
     Authorization: "Bearer " + token
