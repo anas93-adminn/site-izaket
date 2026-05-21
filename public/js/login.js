@@ -56,4 +56,3 @@ form.addEventListener("submit", async (e) => {
 
 });
 
-localStorage.setItem("token", data.token);
