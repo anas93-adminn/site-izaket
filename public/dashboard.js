@@ -13,10 +13,10 @@ fetch("https://site-izaket.onrender.com/profile", {
 .then(res => res.json())
 .then(data => {
 
-  console.log("USER CONNECTÉ :", data);
+  console.log(data);
 
   const title = document.createElement("h2");
-  title.textContent = `Bienvenue ${data.user.email}`;
+  title.textContent = "Dashboard OK";
   document.body.appendChild(title);
 
 })
