@@ -2,6 +2,8 @@ console.log("LOGIN JS CHARGÉ");
 const form = document.getElementById("loginForm");
 const message = document.getElementById("message");
 
+console.log("TOKEN REÇU :", data.token);
+
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
 
