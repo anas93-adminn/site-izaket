@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(cors({
-  origin: "https://site-izaket.netlify.app",
+  origin: "https://site-izaket.netlify.app/",
   credentials: true
 }));
 
