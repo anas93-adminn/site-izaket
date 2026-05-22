@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(cors({
-  origin: "https://calm-trifle-8364c9.netlify.app/",
+  origin: "https://site-izaket.netlify.app",
   credentials: true
 }));
 
